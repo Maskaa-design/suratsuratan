@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan untukmu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .show-messages {
+            padding: 10px;
+            background-color: #ff69b4;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .show-messages:hover {
+            background-color: #e63946;
+        }
+    </style>
+    <script>
+        const messages = [
+            "HALOOOO SEKAR WAHYU WININGTYAS",
+            "APA KABAR KAMU HARI INI?",
+            "SEMOGA HARIMU LEBIH BAIK DARI PADA HARI KEMARIN",
+            "JANGAN LUPA MAKAN YA, BIAR NGGA SAKIT !!!",
+            "SUDAH MINUM AIR HARI INI? JANGAN LUPA YA !!!",
+            "HARI INI UDAH BANYAK SENYUM BELUM? KALAU BELUM, COBA SENYUM DULU DEH !!!",
+            "AKU HARAP KAMU MERASA BAIK BAIK SAJA. INGAT, KESEHATAN ITU PENTING !!!",
+            "KALAU ADA APA APA, JANGAN SUNGKAN CERITA, AKU SELALU SIAP DENGAR. OKEEEEEEEEEEEE",
+            "SEMANGAT UNTUK SEMUA YANG KAMU LAKUKAN HARI INI. KAMU PASTI BISA !"
+        ];
+
+        function showMessages() {
+            for (let i = 0; i < messages.length; i++) {
+                alert(messages[i]);
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>UNTUK KAMU SEKAR WAHYU WININGTYAS</h1>
+        <button class="show-messages" onclick="showMessages()">PENCET YANG INI DULU YA</button><br><br><br>
+
+        <a href="https://wa.me/6287749993578?text=Aku%20Sayang%20Kamu%20Pake%20Banget" class="show-messages" style="text-decoration: none;">BALAS PESAN KE AKU YAH</a><br><br><br>
+        
+        <button class="show-messages" onclick="location.href='mekar.html';">LALU PENCET YANG INI</button>
+        
+    </div>
+</body>
+</html>
